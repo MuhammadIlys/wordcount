@@ -1,0 +1,13 @@
+<a href="{% url 'home' %}">back to home</a>
+
+<h1>Counted</h1>
+
+Yout text ={{ mydata }}<br>
+
+word count = {{ length }}<br>
+
+{% for word,value in dict %}
+<br>
+{{ word }}={{value}}
+{% endfor %}
+
